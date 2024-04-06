@@ -1,0 +1,26 @@
+
+.sign-up-bg2 {
+    background-image: url("../../Assests/carousel-2.jpg");
+    background-size: cover;
+    position: flex;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+  }
+  .font-weight-bold-sign-up1 {
+      font-weight: bold;
+      position: relative;
+  }
+  
+  .custom-form-content1 {
+      padding: 1px;
+      border-radius: 30px;
+      width: 500px;
+      margin: 20px;
+      margin-top: 10px;
+      background-color: rgba(137, 190, 177, 0.575);
+      position: absolute;
+    
+  }
+  
+  

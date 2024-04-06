@@ -1,0 +1,25 @@
+.form-select{
+    padding: 7.5px;
+    border-radius: 3px;
+}
+#sjob, #ftalent{
+    border: 1px solid;
+    background-color: rgb(28, 67, 197);
+    padding: 4px 8px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#sjob:hover, #ftalent:hover{
+    border: 1px solid  rgb(59, 59, 255);
+    background-color: rgb(59, 59, 255);
+    padding: 4px 8px;
+    margin: 0px 10px;
+    border-radius: 3px;
+    font-weight: 500;
+    color: white;
+}
+#dim{
+    background-color: black;
+}
+

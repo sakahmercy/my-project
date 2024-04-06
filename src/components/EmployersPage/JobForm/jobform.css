@@ -1,0 +1,40 @@
+.container1 {
+    width: 50%;
+    background-color: rgb(188, 189, 250);
+    padding: 20px;
+    border-radius: 5px;
+    
+   margin:10% 25%;
+}
+
+
+
+
+.form-control {
+    border-radius: 0;
+    
+}
+
+.form-select {
+    border-radius: 0;
+    
+}
+
+.btn-primary {
+    border-radius: 0;
+    background-color: #3c56e7;
+    border: none;
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        width: 90%;
+        margin-top: 30px;
+        position: absolute;
+         left: 50%;
+    top: 50%;
+        padding-bottom: 40px;
+
+        
+    }
+}

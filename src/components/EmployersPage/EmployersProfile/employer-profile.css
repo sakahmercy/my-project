@@ -1,0 +1,129 @@
+/* profile-employer.css */
+
+/* Header/Navbar */
+header {
+    background-color: #3498db;
+    padding: 10px;
+  }
+  
+  .brandLogo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .brandLogo figure {
+    margin-right: 10px;
+  }
+  
+  /* Main-Profile Section */
+  .userProfile {
+    margin-top: 20px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+  }
+  
+  /* Work & Skills Section */
+  .work_skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .work, .skills {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    margin-right: 10px;
+  }
+  
+  .work h1, .skills h1 {
+    color: #3498db;
+  }
+  
+  .work ul, .skills ul {
+    list-style: none;
+    padding: 0;
+  }h4{
+    color: #3498db;
+  }
+  
+  .work ul li, .skills ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* User Details Section */
+  .userDetails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .userName, .rank, .btns {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    margin-right: 10px;
+  }
+  
+  .userName h1, .rank h1 {
+    color: #3498db;
+  }
+  
+  /* Timeline & About Section */
+  .timeline_about {
+    margin-top: 20px;
+  }
+  
+  .tabs ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tabs li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .tabs li span {
+    font-size: 18px;
+    color: #3498db;
+  }
+  
+  /* Contact Information */
+   .basic_info {
+    flex: 1;
+    background-color: #ecf0f1;
+    padding: 20px;
+  }
+  
+  .contact_Info h1, .basic_info h1 {
+    color: #3498db;
+  }
+  
+  .contact_Info ul, .basic_info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact_Info ul li, .basic_info ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .work_skills, .userDetails, .timeline_about {
+      flex-direction: column;
+    }
+  
+    .work, .skills, .userName, .rank, .btns, .contact_Info, .basic_info {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  

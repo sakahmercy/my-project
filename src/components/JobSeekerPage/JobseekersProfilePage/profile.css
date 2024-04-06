@@ -1,0 +1,154 @@
+/* General Styles */
+.container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .brandLogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brandLogo span {
+    margin-left: 0.5rem;
+  }
+  
+  /* User Main-Profile Styles */
+  .userProfile {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .userProfile img {
+    border-radius: 50%;
+  }
+  
+  /* Work & Skills Section Styles */
+  .work_skills {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  
+  .work, .skills {
+    flex: 1;
+  }
+  
+  .heading {
+    color: #333;
+  }
+  
+  .primary, .secondary {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Skills List Styles */
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* User Details Section Styles */
+  .userDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  
+  .userName {
+    flex: 2;
+  }
+  
+  .userName p {
+    margin-top: 0.5rem;
+  }
+  
+  .rank {
+    flex: 1;
+  }
+  
+  .rating {
+    color: gold;
+  }
+  
+  /* Buttons Styles */
+  .btns {
+    margin-top: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .active {
+    color: #007bff;
+  }
+  
+  /* Timeline & About Section Styles */
+  .timeline_about {
+    margin-top: 2rem;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .tabs li {
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f5f5f5;
+  }
+  
+  .tabs .active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Contact Info & Basic Info Styles */
+  .contact_Info, .basic_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .contact_Info ul, .basic_info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact_Info li, .basic_info li {
+    margin-bottom: 1rem;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .work_skills, .userDetails, .timeline_about {
+      flex-direction: column;
+    }
+  
+    .work, .skills, .rank {
+      width: 100%;
+    }
+  }
+  

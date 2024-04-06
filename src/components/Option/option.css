@@ -1,0 +1,16 @@
+.opt{
+    border: 5px bold black;
+    margin-top: 40px;
+    width: 300px;
+    border-radius: 7px;
+    font-size: large ;
+    font-weight: bold;
+}
+#options{
+ 
+ margin-top: 100px;
+ background-color: rgb(219, 247, 237);
+}
+h5, h6{
+    padding-left: 0px;
+}
